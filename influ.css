@@ -24,11 +24,17 @@ li{
     width:20px
 }
 .first{
-    margin-left: 120px;
+    margin-left: 0px;
+    width: 600px;
 }
 .influencer{
     display: flex;
-    margin:100px;
+    margin-left:120px;
+    margin-right: 120px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
 }
 .prebook{
     background-color: blueviolet;
@@ -83,4 +89,18 @@ h2{
 }
 .text{
     font-size: 14px;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    color: white;
+    height: 139px;
+    justify-content: center;
+    text-align: center;
+}
+.product{
+    font-size: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
