@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
 .header{
     margin: 100px;
     display: flex;
@@ -19,6 +23,9 @@ li{
 .search, .cart{
     width:20px
 }
+.first{
+    margin-left: 120px;
+}
 .influencer{
     display: flex;
     margin:100px;
@@ -27,8 +34,53 @@ li{
     background-color: blueviolet;
     width: 120px;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 24px;
     border-radius: 20px;
     font-weight: 700;
-    padding-right: 50px;
+    font-size: 14px;
+}
+.arrow{
+    width: 25px;
+}
+.section{
+    margin: 0 175px;
+    align:center;
+}
+.popular{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #F2F2F2;
+    width: 1047px;
+    justify-content: center;
+}
+.collection{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 270px;
+    height: 476px;
+}
+.img{
+    width: 250px;
+}
+h2{
+    font: 28px;
+}
+.item{
+    font-size: 28px; 
+}
+.h3{
+    font-size: 24px;
+}
+.image{
+    width: 60px;
+}
+.text{
+    font-size: 14px;
 }
